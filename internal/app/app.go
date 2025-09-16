@@ -22,7 +22,7 @@ func StartApp() {
 	wg := sync.WaitGroup{}
 
 	var totalAllocation atomic.Int64
-	semaphore := make(chan struct{}, 5)
+	semaphore := make(chan struct{}, config.WorkerAmount)
 
 	for wallets.Scan() {
 
