@@ -10,7 +10,7 @@ Supports residential proxies and parallelized requests for multiple wallets.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/lombardchecker.git
+git clone https://github.com/socryptos/lombard_checker.git
 ````
 
 ### 2. Configure `config.go`
